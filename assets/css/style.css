@@ -38,6 +38,9 @@
 .bg-gray{
     background-color: var(--color-gray);
 }
+.bg-red{
+    background-color: var(--color-red);
+}
 .sec-default{
     padding: 80px 10px;
 }
@@ -185,4 +188,42 @@ nav.menu ul li a{
 
 .sec_cta img{
     width: 100%;
+}
+.sec_visao h3{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.sec_visao p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.left_sec_visao{
+    padding: 10px 40px 10px 10px;
+}
+.right_sec_visao{
+    padding: 40px 10px 10px 10px;
+}
+.sec_visao ul{
+    display: flex;
+}
+.sec_visao ul li{
+    padding: 5px 20px 5px 0;
+    color: var(--color-white);
+}
+.min_card{
+    background-color: var(--color-main);
+    padding: 25px;
+    border-radius: 40px;
+}
+.icon_min_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.icon_min_card img{
+    margin: auto;
 }
