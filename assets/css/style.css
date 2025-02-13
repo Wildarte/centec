@@ -217,6 +217,12 @@ nav.menu ul li a{
     background-color: var(--color-main);
     padding: 25px;
     border-radius: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--color-gray);
+    width: 85%;
+    display: flex;
+    padding: 40px;
 }
 .icon_min_card{
     display: flex;
@@ -226,4 +232,92 @@ nav.menu ul li a{
 }
 .icon_min_card img{
     margin: auto;
+    width: 98px;
+}
+.over_icon_min_card{
+    width: 15%;
+    height: 100%;
+    position: relative;
+}
+.icon_min_card{
+    position: absolute;
+    left: -100px;
+    top: calc(50% - 90px);
+    padding: 30px;
+    border-radius: 50%;
+    background-color: var(--color-main);
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info_min_card{
+    width: 85%;
+}
+.info_min_card h3{
+    font-size: 30px;
+    line-height: 1em;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.info_min_card p{
+    font-size: 20px;
+    text-align: justify;
+}
+.min_card:nth-child(even){
+    background-color: var(--color-red);
+    margin-left: 15%;
+}
+
+.min_card:nth-child(even) .icon_min_card{
+    background-color: var(--color-red);
+}
+footer.footer{
+    background-color: var(--color-main);
+}
+.content_footer{
+    padding: 60px 10px;
+}
+.content_footer h4{
+    color: #93C1CC;
+    font-size: 24px;
+    line-height: 1em;
+    margin-bottom: 20px;
+}
+.content_footer p{
+    color: var(--color-white);
+}
+
+.social_footer{
+    display: flex;
+}
+.social_footer a{
+    width: 42px;
+    display: flex;
+    padding: 5px 10px 5px 0;
+}
+.content_footer p{
+    margin-bottom: 10px;
+}
+.last_col_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.logo_footer{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.logo_footer img{
+    margin: auto;
+}
+.content_footer .f-33:nth-child(even){
+    border-left: 1px solid var(--color-blue);
+    border-right: 1px solid var(--color-blue);
+    padding-left: 30px;
+    padding-right: 30px;
 }
