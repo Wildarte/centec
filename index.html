@@ -12,7 +12,7 @@
 
     <header class="header">
         <div class="container content_header">
-            <a href="" class="logo logo_head">
+            <a href="#" class="logo logo_head">
                 <img src="assets/img/logo.png" alt="">
             </a>
 
@@ -24,9 +24,9 @@
                     </div>
                 </div>
                 <ul>
-                    <li><a href="">Sobre nós</a></li>
-                    <li><a href="">Nossos serviços</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="#sobre">Sobre nós</a></li>
+                    <li><a href="#servicos">Nossos serviços</a></li>
+                    <li><a href="#rodape">Contato</a></li>
                 </ul>
             </nav>
 
@@ -49,7 +49,7 @@
             </div>
         </section>
 
-        <section class="sec_section">
+        <section class="sec_section" id="sobre">
             <div class="over_content_sec">
                 <div class="container d-flex content_sec">
                     <div class="f-50 left_sec">
@@ -59,7 +59,7 @@
         
                         <p class="text-default">Somos pioneiros na implementação de comunicação via intranet, onde o sistema de alarme e câmeras de nossos clientes possui rede ligada à nossa central de monitoramento sem depender de terceiros.</p>
         
-                        <a class="btn-red" href="">Entre em contato</a>
+                        <a class="btn-red" href="https://api.whatsapp.com/send?phone=553599180003&fbclid=PAZXh0bgNhZW0CMTEAAaYXw_bEAiRBJJhLsvvVAFdmzk9-p8EjddPqZKTlysYQYar6K00DpaUNrCk_aem_WjBfS2HJvuv-z_lzONmvWQ">Entre em contato</a>
                     </div>
                     <div class="f-50">
     
@@ -74,46 +74,49 @@
             <img src="assets/img/ban2.jpg" alt="">
         </section>
 
-        <section class="sec_card bg-gray">
+        <section class="sec_card bg-gray" id="servicos">
             <div class="container sec-default">
                 <h2 class="sec_heading text-center w-100">Nossos produtos e serviços</h2>
 
                 <div class="d-flex">
                     <div class="f-33 d-flex">
-                        <a href="" class="card_link">
+                        <div class="card_link">
                             <img src="assets/img/card.png" alt="">
 
                             <h4>Monitoramento 24 horas</h4>
 
                             <p>Acompanhamento constante para sua maior segurança.</p>
-                        </a>
+                        </div>
                     </div>
 
                     <div class="f-33 d-flex">
-                        <a href="" class="card_link">
+                        <div class="card_link">
                             <img src="assets/img/card2.png" alt="">
 
                             <h4>Portaria Remota</h4>
 
                             <p>Monitore e controle o acesso de pessoas e veículos ao seu condomínio ou empresa de forma remota, com praticidade e segurança.</p>
-                        </a>
+                        </div>
                     </div>
 
                     <div class="f-33 d-flex">
-                        <a href="" class="card_link">
+                        <div class="card_link">
                             <img src="assets/img/card3.png" alt="">
 
                             <h4>Instalação de sistemas de segurança, câmera e alarmes</h4>
 
                             <p>Monitore e controle o acesso de pessoas e veículos ao seu condomínio ou empresa de forma remota, com praticidade e segurança.</p>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="sec_cta d-flex">
-            <img src="assets/img/video.jpg" alt="">
+        <section class="sec_cta d-flex" id="video_frame">
+            <video id="meuVideo" src="assets/video/vídeo_site.mp4"></video>
+            <button id="toggleBtn">
+                <img src="assets/img/play.png" alt="">
+            </button>
         </section>
 
         <section class="bg-red sec_visao">
@@ -208,16 +211,16 @@
         <section class="bg-gray">
             <h2 class="sec_heading w-100 text-center">Onde estamos localizados?</h2>
 
-            <div class="d-flex">
-                <img src="assets/img/map.jpg" alt="">
+            <div class="d-flex content_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.734251398255!2d-46.6108138!3d-20.721013299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b6c3ca59fde77b%3A0x1d4d2596a5e77edc!2sR.%20Bar%C3%A3o%20de%20Passos%2C%2069%20-%20Centro%2C%20Passos%20-%20MG%2C%2037900-048!5e0!3m2!1spt-BR!2sbr!4v1739797460223!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="rodape">
         <div class="container d-flex content_footer">
             <div class="f-33">
-                <a href="" class="logo_footer">
+                <a href="#" class="logo_footer">
                     <img src="assets/img/logo.png" alt="">
                 </a>
             </div>
@@ -227,8 +230,8 @@
                 <p>(35) 3521-9391</p>
 
                 <ul class="social_footer">
-                    <li><a href=""><img src="assets/img/instagram.png" alt=""></a></li>
-                    <li><a href=""><img src="assets/img/whatsapp.png" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/centecseguranca/"><img src="assets/img/instagram.png" alt=""></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=553599180003&fbclid=PAZXh0bgNhZW0CMTEAAaYXw_bEAiRBJJhLsvvVAFdmzk9-p8EjddPqZKTlysYQYar6K00DpaUNrCk_aem_WjBfS2HJvuv-z_lzONmvWQ"><img src="assets/img/whatsapp.png" alt=""></a></li>
                 </ul>
             </div>
             <div class="f-33 last_col_footer">
@@ -238,5 +241,21 @@
     </footer>
     
     <script src="assets/js/script.js"></script>
+    
+    <script>
+        const video = document.getElementById('meuVideo');
+        const btn = document.getElementById('toggleBtn');
+
+        btn.addEventListener('click', () => {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = '<img src="assets/img/pause.png">';
+            } else {
+                video.pause();
+                btn.innerHTML = '<img src="assets/img/play.png">';
+            }
+        });
+    </script>
+
 </body>
 </html>
